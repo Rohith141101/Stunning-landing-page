@@ -10,32 +10,32 @@ body{
     display: flex;
 }
 .logo{
-    padding-left:90px;
-    padding-top:30px;
+    padding-left:150px;
+    padding-top:15px;
 }
 .topbar{
-    margin-top: 20px;
-    margin-left: 250px;
+    margin-top: 30px;
+    margin-left: 240px;
 }
 .topbar a{
     display: inline-block;
-    margin: 23px 25px;
+    margin: 0px 20px;
     text-decoration: none;
     color:lightgray;
-    font-size: 14px;
+    font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
 }
-.header .active{
+.topbar a:hover{
     color:black;
     border-bottom: 3px solid #8071D0;
 }
 .btn{
-   padding-left:21%;
-   padding-top: 30px;
+   padding-left:13%;
+   padding-top: 15px;
 }
 button{
-    padding: 18px 15px;
+    padding: 15px 18px;
     background-color:  #FED7DA;
     color: #A389CC;
     font-size: 14px;
@@ -43,35 +43,37 @@ button{
     border: none;
     border-radius: 18px;
 }
-.cards .active{
+.cards button:hover{
+    cursor: pointer;
     background-color: #ffffff;
 }
 .section{
     display: flex;
 }
 .landing-section{
-    margin-top:30px;
-    margin-left: 70px;
+    margin-top:20px;
+    margin-left: 90px;
 } 
 .content h1{
-    margin-left: 170px;
-    margin-top: 50px;
+    margin-left: 230px;
+    margin-top: 20px;
     font-family: sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: -2.5px;
+    word-spacing: 5px;
 }
 .content p{
     color:rgb(81, 81, 82);
-    margin-left: 170px;
-    margin-top: 40px;
+    margin-left: 230px;
+    margin-top: 20px;
     font-family: sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1.5;
 }
 .button button{
-    margin-top: 40px;
-    margin-left:170px;
+    margin-top: 30px;
+    margin-left:230px;
     background-color: #5243C0;
     color:  #ffffff;
 }
@@ -79,27 +81,27 @@ button{
     display: flex;
 }
 .arrow{
-    margin-top:40px ;
-    margin-left: 8px;
+    margin-top:30px ;
+    margin-left: 15px;
 }
 .arrow img{
-    padding-right: 5px;
+    padding-right: 8px;
 }
 .cards{
-    margin-left: 170px;
-    margin-top: 75px;
+    margin-left: 230px;
+    margin-top: 30px;
 }
 .cards button{
     width: 100%;
     display: block;
     margin: 0;
-    padding: 20px 40px 20px 0px;
+    padding: 15px 40px 15px 0px;
     border:none;
     border-radius: 2px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     color:black;
     background-color: rgb(245, 245, 245);
-    box-shadow: 0px 0px 5px #dfdede;
+    box-shadow: 0px 0px 5px #cfcece;
     font-size: 14px;
 }
 .pink img{
