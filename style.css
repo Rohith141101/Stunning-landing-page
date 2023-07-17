@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    display: flex;
+}
+.logo{
+    padding-left:90px;
+    padding-top:30px;
+}
+.topbar{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.topbar a{
+    display: inline-block;
+    margin: 23px 25px;
+    text-decoration: none;
+    color:lightgray;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.header .active{
+    color:black;
+    border-bottom: 3px solid #8071D0;
+}
+.btn{
+   padding-left:21%;
+   padding-top: 30px;
+}
+button{
+    padding: 18px 15px;
+    background-color:  #FED7DA;
+    color: #A389CC;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 18px;
+}
+.cards .active{
+    background-color: #ffffff;
+}
+.section{
+    display: flex;
+}
+.landing-section{
+    margin-top:30px;
+    margin-left: 70px;
+} 
+.content h1{
+    margin-left: 170px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 60px;
+    letter-spacing: -2.5px;
+}
+.content p{
+    color:rgb(81, 81, 82);
+    margin-left: 170px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5;
+}
+.button button{
+    margin-top: 40px;
+    margin-left:170px;
+    background-color: #5243C0;
+    color:  #ffffff;
+}
+#button{
+    display: flex;
+}
+.arrow{
+    margin-top:40px ;
+    margin-left: 8px;
+}
+.arrow img{
+    padding-right: 5px;
+}
+.cards{
+    margin-left: 170px;
+    margin-top: 75px;
+}
+.cards button{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 20px 40px 20px 0px;
+    border:none;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    color:black;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 0px 5px #dfdede;
+    font-size: 14px;
+}
+.pink img{
+    position: relative;
+    top:6px;
+    left:38px;
+}.orange img{
+    position: relative;
+    top:6px;
+    left:30px;
+}
+.blue img{
+    position: relative;
+    top:6px;
+    left:41px;
+}
+.red img{
+    position: relative;
+    top:6px;
+    left:50px;
+}
+.date1{
+    position: relative;
+    left: 9px;
+}
+.date2{
+    position: relative;
+    right: 0px;
+}
+.date3{
+    position: relative;
+    left: 13px;
+}
+.date4{
+    position: relative;
+    left: 21px;
+}
+.gray-tick1{
+    position: relative;
+    top:6px;
+    margin-right: 20px;
+}
+.gray-tick2{
+    position: relative;
+    top:6px;
+    right: 6px;
+    margin-right: 20px;
+}
+.gray-tick3{
+    position: relative;
+    top:6px;
+    margin-right: 20px;
+    right: 16px;
+}
+.blue-tick{
+    position: relative;
+    top:6px;
+    left: 7px;
+    margin-right: 20px;
+}
+.border1{
+    border-bottom:6px solid pink;
+    position: relative;
+    bottom: 9px;
+    left:34px
+}
+.border2{
+    border-bottom:6px solid orange;
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+}
+.border3{
+    border-bottom:6px solid green;
+    position: relative;
+    bottom: 9px;
+    left:37px;
+}
+.border4{
+    border-bottom:6px solid red;
+    position: relative;
+    left:44px;
+    bottom: 10px;
+}
