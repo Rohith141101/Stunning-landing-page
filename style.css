@@ -3,6 +3,9 @@
     margin: 0;
     padding:0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -106,7 +109,7 @@ button{
     margin-top: 70px;
 }
 .cards button{
-    width: 100%;
+    width: 95%;
     display: block;
     margin: 0;
     padding: 10px 40px 15px 0px;
@@ -121,83 +124,133 @@ button{
 .pink img{
     position: relative;
     top:6px;
-    left:38px;
+    left:30px;
 }.orange img{
     position: relative;
     top:6px;
-    left:30px;
+    left:22px;
 }
 .blue img{
     position: relative;
     top:6px;
-    left:41px;
+    left:33px;
 }
 .red img{
     position: relative;
     top:6px;
-    left:50px;
+    left:43px;
 }
 .date1{
     position: relative;
-    left: 9px;
+    left: 6px;
 }
 .date2{
     position: relative;
-    right: 0px;
+    right: 3px;
 }
 .date3{
     position: relative;
-    left: 13px;
+    left: 10px;
 }
 .date4{
     position: relative;
-    left: 21px;
+    left: 18px;
 }
 .gray-tick1{
     position: relative;
-    top:6px;
+    top:5px;
+    left:-4px;
     margin-right: 20px;
 }
 .gray-tick2{
     position: relative;
     top:6px;
-    right: 6px;
+    right: 9px;
     margin-right: 20px;
 }
 .gray-tick3{
     position: relative;
     top:6px;
     margin-right: 20px;
-    right: 16px;
+    right: 19px;
 }
 .blue-tick{
     position: relative;
     top:6px;
-    left: 7px;
+    left: 4px;
     margin-right: 20px;
 }
 .border1{
-    border-bottom:6px solid pink;
+    border-bottom:6px solid #FED7DA;
     border-radius: 3px;
     position: relative;
     bottom: 9px;
     left:34px
 }
 .border2{
-    border-bottom:6px solid orange;
+    border-bottom:6px solid #FD6534;
+    border-radius: 3px;
     position: relative;
     bottom: 10px;
     left: 25px;
 }
 .border3{
-    border-bottom:6px solid green;
+    border-bottom:6px solid #9ED095;
+    border-radius: 3px;
     position: relative;
     bottom: 9px;
     left:37px;
 }
 .border4{
-    border-bottom:6px solid red;
+    border-bottom:6px solid #FFE4A0;
+    border-radius: 3px;
     position: relative;
     left:44px;
     bottom: 10px;
 }
+#img5{
+    position: relative;
+    left: 0px;
+}
+#img6{
+    position: relative;
+    left: 7px;
+}
+#img7{
+    position: relative;
+    left: -6px;
+}
+#img8{
+    position: relative;
+    left: -16px;
+}
+#img5,#img6,#img7,#img8{
+    display: none;
+}
+#image1:hover #img1{
+    display: none;
+}
+#image1:hover #img5{
+    display: inline;   
+}
+#image2:hover #img2{
+    display: none;
+}
+#image2:hover #img6{
+    display: inline;
+}
+#image3:hover #img3{
+    display: none;
+}
+#image3:hover #img7{
+    display: inline;
+}
+#image4:hover #img4{
+    display: none;
+}
+#image4:hover #img8{
+    display: inline;
+}
+
+
+
